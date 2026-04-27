@@ -1,10 +1,11 @@
-- 👋 Hi, I’m Ajay Kumar
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+I'm Ajay Kumar Artificial Intelligence and Machine Learning Engineer.
+🔭 I’m currently working on Data Science and Machine Learning projects.
+🌱 I’m currently learning GenAI, MLOPS, LLMs, Recommender System, Advance NLP and AWS.
+MCA from UPTU Lucknow.
+Things I am passionate about 📈 Machine Learning
 
-<!---
-ajaykumaretw/ajaykumaretw is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+🤖 Deep Learning and Generative AI
+
+🧠 Neural Networks- Tensorflow & Keras, PyTorch
+
+👁️ Computer Vision
