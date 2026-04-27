@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Notes Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <header class="sidebar-header">
+          <h1>Notes</h1>
+          <button id="new-note" aria-label="Create new note">+</button>
+        </header>
+        <input id="search" type="search" placeholder="Search notes" />
+        <ul id="notes-list" class="notes-list"></ul>
+      </aside>
+
+      <main class="editor">
+        <input
+          id="note-title"
+          class="note-title"
+          type="text"
+          placeholder="Title"
+        />
+        <textarea
+          id="note-content"
+          class="note-content"
+          placeholder="Start typing..."
+        ></textarea>
+      </main>
+    </div>
+
+    <template id="note-item-template">
+      <li class="note-item">
+        <button class="note-select" type="button">
+          <h3 class="item-title"></h3>
+          <p class="item-preview"></p>
+          <time class="item-date"></time>
+        </button>
+        <button class="delete-note" type="button" aria-label="Delete note">🗑</button>
+      </li>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
